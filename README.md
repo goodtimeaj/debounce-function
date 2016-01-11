@@ -32,7 +32,7 @@ npm install debounce-function
 ```
 
 ```javascript
-require 'debounce-function'
+var DebounceFunction = require('debounce-function')
 ```
 
 ### API
