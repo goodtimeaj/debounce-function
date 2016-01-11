@@ -17,7 +17,7 @@
   "keywords": [
     "debounce",
     "throttle",
-    "event"
+    "function"
   ],
   "author": "Greg Stallings <gregstallings@gmail.com>",
   "license": "MIT",
