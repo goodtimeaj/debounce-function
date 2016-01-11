@@ -1,0 +1,38 @@
+{
+  "name": "debounce-function",
+  "version": "0.0.1",
+  "description": "Creates a debounced version of the given function which waits to execute until its last call within a given time period.",
+  "main": "dist/debounce-function.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "npm install && grunt install && grunt build",
+    "test": "grunt build && grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregstallings/debounce-function.git"
+  },
+  "keywords": [
+    "debounce",
+    "throttle",
+    "event"
+  ],
+  "author": "Greg Stallings <gregstallings@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gregstallings/debounce-function/issues"
+  },
+  "homepage": "https://github.com/gregstallings/debounce-function#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-shell": "^1.1.2",
+    "mocha": "^2.3.4",
+    "mocha-phantomjs": "^4.0.2"
+  }
+}

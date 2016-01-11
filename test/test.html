@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mocha-PhantomJS Test Runner</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="bower_components/mocha/mocha.css">
+</head>
+<body>
+  <div id="mocha"></div>
+  <div id="fixture"></div>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/mocha/mocha.js"></script>
+  <script src="bower_components/chai/chai.js"></script>
+  <script src="setup.js"></script>
+  <script src="../build/debounce-function.js"></script>
+  <script src="browser/browser-global.js"></script>
+  <script>
+    mocha.run()
+  </script>
+</body>
+</html>
