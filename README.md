@@ -18,17 +18,17 @@ AMD:
 ```html
 <script src="debounce-function.min.js"></script>
 <script>
-  define(['debounce-function'], function() {
-     // do something
+  define(['debounce-function'], function(DebounceFunction) {
+    // do something
   })
-<script>
+</script>
 ```
 
 
 CommonJS:
 
 ```bash
-npm install debounce-function
+$ npm install debounce-function
 ```
 
 ```javascript
